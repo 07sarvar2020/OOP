@@ -1,0 +1,36 @@
+.container{
+    min-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+.box__list{
+    display: flex;
+    column-gap: 20px;
+    list-style: none;
+}
+.box__link{
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+}
+.box__tab{
+    width: 100px;
+    height: 50px;
+    background: cornflowerblue;
+    border: 1px solid tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;   
+}
+.box__link.active{
+    color: tomato;
+}
+.box__tab.active{
+    background:turquoise;
+}
